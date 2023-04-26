@@ -98,12 +98,6 @@ footer{
     margin:20px;
 }
 
-main {
-    width: 940px;
-    margin: 0 auto;
-    
-}
-
 form {
     margin: 40px  0;
 }
@@ -170,6 +164,13 @@ td, th {
     margin: 1em auto;
 }
 
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
     text-align: center;
     font-size: 2em;
@@ -198,13 +199,34 @@ td, th {
     width: 60%;
 }
 
+.imagenDiferenciales{
+   
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.3;
+}
+
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
 }
 
 .mapa p {
     margin: 0 0 2em;
     text-align: center;
+}
+
+.mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.diferenciales {
+    padding: 3em 0;
+    /* background: #888888; */
 }
 
 .contenido-d {
@@ -220,6 +242,10 @@ td, th {
 
 .items{
     line-height: 1.5;
+}
+
+.items:before{
+    content:"★"
 }
 
 .items:first-child {
